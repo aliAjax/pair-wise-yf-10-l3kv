@@ -46,5 +46,38 @@
       "createdAt": "2026-06-16T00:00:00.000Z",
       "resolvedAt": null
     }
-  ]
+  ],
+  "rolls": [
+    {
+      "id": "roll_demo_ready",
+      "batchNo": "PC-2026-0901",
+      "widthMm": 70,
+      "remainingM": 120,
+      "room": "打孔间",
+      "arrivedAt": "2026-09-20T08:00:00.000Z",
+      "createdAt": "2026-09-18T08:00:00.000Z"
+    },
+    {
+      "id": "roll_demo_storage",
+      "batchNo": "PC-2026-0902",
+      "widthMm": 70,
+      "remainingM": 80,
+      "room": "阴凉库",
+      "arrivedAt": null,
+      "createdAt": "2026-09-22T08:00:00.000Z"
+    }
+  ],
+  "rooms": [
+    {
+      "name": "阴凉库",
+      "humidityPct": 52,
+      "updatedAt": "2026-09-23T08:00:00.000Z"
+    },
+    {
+      "name": "打孔间",
+      "humidityPct": 58,
+      "updatedAt": "2026-09-23T08:00:00.000Z"
+    }
+  ],
+  "allocations": []
 }
