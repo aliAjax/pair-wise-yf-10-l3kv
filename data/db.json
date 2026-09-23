@@ -10,7 +10,7 @@
         "tempoBpm": 82,
         "paperType": "半透明纸带"
       },
-      "createdAt": "2026-06-16T00:00:00.000Z"
+      "createdAt": "2026-09-23T20:59:40.752Z"
     }
   ],
   "sections": [
@@ -43,8 +43,35 @@
       "lane": 12,
       "description": "第41拍高音孔漏打",
       "status": "open",
-      "createdAt": "2026-06-16T00:00:00.000Z",
+      "createdAt": "2026-09-23T20:59:40.752Z",
       "resolvedAt": null
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room_cool",
+      "name": "阴凉库",
+      "kind": "cool",
+      "humidityPct": 45
+    },
+    {
+      "id": "room_punch",
+      "name": "打孔间",
+      "kind": "punch",
+      "humidityPct": 55
+    }
+  ],
+  "rolls": [
+    {
+      "id": "roll_demo",
+      "batchNo": "BATCH-2026-001",
+      "widthMm": 70,
+      "remainingLengthMm": 12000,
+      "roomId": "room_punch",
+      "arrivedAt": "2026-09-23T07:59:40.752Z",
+      "reservedByTuneId": null,
+      "reservedLengthMm": 0,
+      "createdAt": "2026-09-23T20:59:40.752Z"
     }
   ]
 }
